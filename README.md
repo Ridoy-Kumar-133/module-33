@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My Next.js Project
 
-## Getting Started
+This is a simple Next.js project where I practiced different Next.js and React concepts.
 
-First, run the development server:
+## 🚀 Technologies Used
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Next.js
+- React
+- JavaScript
+- Tailwind CSS
+- DaisyUI
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📚 What I Practiced
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+In this project, I practiced:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Next.js App Router
+- Dynamic Routing
+- Nested Routes
+- Layout
+- Navigation
+- `usePathname`
+- Dynamic Route Params
+- `map()` and `find()`
+- Reusable Components
+- Next.js `Image`
+- Server Components
+- Fetching API Data
+- Custom `not-found` Page
+- Metadata
+- Tailwind CSS
+- DaisyUI
+- Dashboard Layout
+- Sidebar and Drawer
 
-## Learn More
+## 📁 Main Pages
 
-To learn more about Next.js, take a look at the following resources:
+Some pages included in this project:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `/`
+- `/about`
+- `/about/designers`
+- `/about/developers`
+- `/docs`
+- `/showCase`
+- `/blogs`
+- `/blogs/[postid]`
+- `/dashboard`
+- `/users`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📝 Blog Section
 
-## Deploy on Vercel
+The project contains a simple blog section.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Each blog has:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Title
+- Author
+- Date
+- Category
+- Description
+- Image
+
+Clicking **View Details** takes the user to a dynamic blog details page.
+
+Example:
+
+```text
+/blogs/1
+/blogs/2
+/blogs/3
